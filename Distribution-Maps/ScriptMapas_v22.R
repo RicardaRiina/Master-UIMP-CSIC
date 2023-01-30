@@ -171,9 +171,9 @@ library(prettymapr)
 library(maps)
 
 ### Establecer directorio (el de este script y "Recolecciones_Ricinus.txt”)
-### En mi caso tengo una carpeta en mi escritorio ("Ejercicio_Mapas_2022)
+### En mi caso tengo una carpeta en mi escritorio ("Ejercicio_Mapas")
 
-setwd("~/Desktop/Ejercicio_Mapas_2022")
+setwd("~/Desktop/Ejercicio_Mapas")
 
 tabla<-read.table("Recolecciones_Ricinus.txt", sep="\t", header=TRUE)
 
